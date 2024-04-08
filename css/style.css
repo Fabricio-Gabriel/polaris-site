@@ -599,6 +599,7 @@ table {
   font-family: "Jost", sans-serif;
   font-weight: 100;
   font-size: 0.8rem;
+  margin-left: 10px;
 }
 html {
   height: 100vh;
