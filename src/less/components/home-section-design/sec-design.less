@@ -1,8 +1,61 @@
 .contain-design {
     width: 100%;
     max-width: 1500px;
-    background-color: blue;
-    height: 813px;
+    //background-color: blue;
+    height: 827px;
     margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+
+    .container-img {
+        width: 813px;
+        height: 100%;
+        //background-color: rgb(252, 8, 8);
+        
+        .txt-data {
+            display: flex;
+            justify-content: space-between;
+
+            p {
+                font-family: "Jost", sans-serif;
+                color: #fff;
+            }
+        }
+
+        .img-design {
+            height: 810px;
+            width: 813px;
+            background-color: aqua;
+            background-image: url('../public/img/celulares.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+    .title-design {
+        width: 320px;
+        height: 100%;
+        //background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .contain-h2 {
+            height: 100%;
+            //background-color: rgb(247, 12, 12);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+
+            h2 {
+                text-align: left;
+                font-family: "Jost", sans-serif;
+                color: #fff;
+                font-size: 5rem;
+            }
+        }
+    }
 
 }
