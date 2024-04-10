@@ -621,9 +621,10 @@ table {
   width: 100%;
   max-width: 1500px;
   height: 827px;
-  margin-right: 20px;
+  margin-right: 50px;
   display: flex;
   flex-direction: row;
+  gap: 20px;
 }
 .contain-design .container-img {
   width: 813px;
@@ -647,7 +648,7 @@ table {
   background-size: cover;
 }
 .contain-design .title-design {
-  width: 320px;
+  width: 350px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -659,12 +660,34 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  gap: 30px;
 }
 .contain-design .title-design .contain-h2 h2 {
   text-align: left;
   font-family: "Jost", sans-serif;
   color: #fff;
   font-size: 5rem;
+  font-weight: 500;
+}
+.contain-design .text-design {
+  width: 80%;
+  height: 100%;
+  margin-left: 20px;
+  border-left: 3px solid #fff;
+  padding-left: 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contain-design .text-design > div {
+  margin-bottom: 50px;
+}
+.contain-design .text-design p {
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
 }
 .section-servicos {
   width: 100%;
