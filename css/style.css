@@ -772,9 +772,8 @@ table {
 .contain-simplicidade {
   width: 100%;
   max-width: 1500px;
-  height: 930px;
+  height: auto;
   margin-right: 50px;
-  background-color: blue;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: 60px;
@@ -803,8 +802,28 @@ table {
 .contain-simplicidade .text-simplicidade {
   height: 100%;
   width: 85%;
-  background-color: red;
   border-left: 3px solid #fff;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+.contain-simplicidade .text-simplicidade h2 {
+  color: #fff;
+  font-size: 4rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  line-height: 90px;
+}
+.contain-simplicidade .text-simplicidade p {
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 28.5px;
+  margin-top: 40px;
+  text-align: left;
+}
+.contain-simplicidade .text-simplicidade p span {
+  text-decoration: underline;
 }
 * {
   box-sizing: border-box;
