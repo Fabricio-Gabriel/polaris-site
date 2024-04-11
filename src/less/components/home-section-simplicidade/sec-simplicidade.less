@@ -1,0 +1,45 @@
+.contain-simplicidade {
+    width: 100%;
+    max-width: 1500px;
+    height: 930px;
+    margin-right: 50px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 60px;
+    justify-items: flex-end;
+
+    .img-simplicidade {
+        width: 771px;
+        height: 927px;
+        //background-color: aqua;
+
+        .text-data {
+            display: flex;
+            justify-content: space-between;
+
+            p {
+                font-family: "Jost", sans-serif;
+                color: #fff;
+            }
+        }
+
+        .bg-simplicidade {
+            height: 98.5%;
+            width: 100%;
+            //background-color: aqua;
+            background-image: url('../public/img/mesa.png');
+            background-position: center right;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+    .text-simplicidade {
+        height: 100%;
+        width: 85%;
+        background-color: red;
+        border-left: 3px solid #fff;
+        
+    }
+}
