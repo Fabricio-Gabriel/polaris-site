@@ -496,12 +496,13 @@ table {
 }
 .main-home {
   width: 100%;
-  height: 1000px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-end;
   margin-top: 120px;
+  gap: 270px;
 }
 .aside {
   width: 275px;
@@ -689,19 +690,34 @@ table {
   font-size: 1.3rem;
   margin-bottom: 10px;
 }
-.section-servicos {
-  width: 100%;
-  height: 700px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 40px;
-}
-.section-servicos .contain-items-servicos {
+.contain-servicos {
   width: 100%;
   max-width: 1500px;
-  height: 700px;
-  background-color: #8c00ff;
+  background-color: blue;
+  height: 827px;
+  margin-right: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+.contain-servicos .title-servicos {
+  width: 550px;
+  height: 400px;
+  background-color: red;
+}
+.contain-servicos .img-servicos {
+  grid-row: 0.33333333;
+  grid-column: 0.33333333;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+.contain-servicos .text-servicos {
+  height: 100%;
+  width: 550px;
+  background-color: aqua;
+  grid-row: 0.33333333;
 }
 * {
   box-sizing: border-box;
