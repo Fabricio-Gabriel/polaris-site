@@ -506,8 +506,7 @@ table {
 }
 .main-sobre {
   width: 100%;
-  background-color: #000000;
-  height: 1000px;
+  height: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -824,6 +823,66 @@ table {
 }
 .contain-simplicidade .text-simplicidade p span {
   text-decoration: underline;
+}
+.sobre-equipe {
+  width: 100%;
+  max-width: 1550px;
+  height: 970px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.sobre-equipe .equipe-title {
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.sobre-equipe .equipe-title .txt-title {
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.sobre-equipe .equipe-title .txt-title p {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 4.3rem;
+  color: #fff;
+  line-height: 90px;
+}
+.sobre-equipe .equipe-title .txt-title p span {
+  margin-left: 10px;
+}
+.sobre-equipe .txt-equipe {
+  height: 100%;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  border-left: 3px solid #fff;
+}
+.sobre-equipe .txt-equipe .contain-txt-equipe {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  gap: 40px;
+}
+.sobre-equipe .txt-equipe .contain-txt-equipe p {
+  line-height: 30px;
+  font-family: "Jost", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #fff;
+}
+.sobre-equipe .img-equipe {
+  width: 45%;
+  height: 100%;
+  background-image: url('../public/img/city.png');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
 }
 * {
   box-sizing: border-box;
