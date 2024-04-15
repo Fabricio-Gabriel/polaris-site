@@ -12,7 +12,7 @@ const viewPage = (pagina, el) => {
 
 viewPage("portfolio.html", portfolio);
 viewPage("index.html", index);
-viewPage("sobre-nos.html", sobre);
+viewPage("sobre.html", sobre);
 
 
 // if (window.location.href.includes("portfolio.html")) {
