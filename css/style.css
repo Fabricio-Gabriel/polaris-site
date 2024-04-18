@@ -827,7 +827,7 @@ table {
 .sobre-equipe {
   width: 100%;
   max-width: 1550px;
-  height: 970px;
+  height: 715px;
   margin-right: 40px;
   display: flex;
   justify-content: space-between;
@@ -1035,6 +1035,13 @@ table {
   height: 100%;
   width: 30%;
   background-color: brown;
+  border-left: 3px solid #fff;
+  padding-left: 20px;
+}
+.sobre-integrantes .txt-integrantes .contain-p-integrantes {
+  height: auto;
+  width: auto;
+  background-color: blueviolet;
 }
 * {
   box-sizing: border-box;
